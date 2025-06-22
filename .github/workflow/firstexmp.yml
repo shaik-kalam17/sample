@@ -15,8 +15,8 @@ jobs:
             ls -ltra
             cat README.md
         
-        -name: Generate AScII Artwork
-         run: cowsay -f dragon "Run for cover, I am DRAGON.....RAWR" >> dragon.txt   
+        - name: Generate AScII Artwork
+          run: cowsay -f dragon "Run for cover, I am DRAGON.....RAWR" >> dragon.txt   
             
 
         # - name: List files
